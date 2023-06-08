@@ -133,15 +133,85 @@ input, textarea{
   margin-bottom: 100px;
 }
 
-@media (max-width: 991px){
-  body{
-    padding: 30px;
+@media (max-width: 767px){
+  header{
+    height: 10px;
+    width: 100%;
   }
+  hr{
+    display: none;
+  }
+  main{
+    width: 100%;
+  }
+  body{
+    width: 100%; 
+   }
   form{
     padding: 50px 30px;
-    width: 100%;
+    width: 90%;
+    margin: 5% 5%;
   }
   input{
     padding: 15px;
   }
+  .fotoMauro{
+    width: 60%;
+    margin: 20% 20%;
+    border-radius: 10px 30px 10px 30px ;
+  }
+  .contenido_proyecto1{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .contenido_proyecto2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .imagenSobreMi{
+    width: 90%;
+  }
+  .contenido_sobreMi{
+   width: 90%;
+   font-weight: 100;
+   margin: 5% 5%;
+  }
+  .section-presentacion{
+    width: 100%;
+    margin-top: 100px;
+    display: block;
+  }
+  .presentacion{
+    font-size: 45px;
+    width: 80%;
+    margin: 10% 10%;
+    text-align: start;
+  }
+  .sobreMi{
+    display: block !important;
+  }
+  .proyecto1{
+    display: block;
+  }
+  .proyecto2{
+    display: block;
+  }
+  .imagenProyecto{
+    width: 90%;
+  }
+  .titulo_sobreMi{
+    font-weight: bold;
+  }
+  .contenido_proyecto1{
+font-weight: 100;
+  }
+  .contenido_proyecto2{
+    font-weight: 100;
+  }
+  form{
+    margin: 0 auto;
+  }
+
 }
